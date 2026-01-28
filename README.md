@@ -6,7 +6,7 @@ Description
 1. Be sure you have **node** and **yarn** (or **npm**, if you use it) installed.
 2. Clone the repository by running
 ```bash
-git clone git@github.com:CITi-UFPE/citiplus-client.git
+git clone https://github.com/PedroCLins/desafio-souv.git
 ```
 3. Install all the dependencies by running
 ```bash
