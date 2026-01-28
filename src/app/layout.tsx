@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 
 import { ThemeProvider } from '../components/theme-provider'; 
 import NextAuthSessionProvider from '../providers/sessionProvider';
+import { Toaster } from '@/components/ui/sonner';
 import '../styles/globals.css';
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
